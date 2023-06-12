@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jean-philippe-sara/static/css/main.a1245d70.css",
-    "main.js": "/jean-philippe-sara/static/js/main.652e5d90.js",
+    "main.js": "/jean-philippe-sara/static/js/main.baa33aea.js",
     "static/css/64.bba8fa55.chunk.css": "/jean-philippe-sara/static/css/64.bba8fa55.chunk.css",
     "static/js/64.1692348f.chunk.js": "/jean-philippe-sara/static/js/64.1692348f.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/jean-philippe-sara/static/css/769.b3cbb36b.chunk.css",
@@ -25,7 +25,7 @@
     "index.html": "/jean-philippe-sara/index.html",
     "static/media/talksCardBack.svg": "/jean-philippe-sara/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.a1245d70.css.map": "/jean-philippe-sara/static/css/main.a1245d70.css.map",
-    "main.652e5d90.js.map": "/jean-philippe-sara/static/js/main.652e5d90.js.map",
+    "main.baa33aea.js.map": "/jean-philippe-sara/static/js/main.baa33aea.js.map",
     "64.bba8fa55.chunk.css.map": "/jean-philippe-sara/static/css/64.bba8fa55.chunk.css.map",
     "64.1692348f.chunk.js.map": "/jean-philippe-sara/static/js/64.1692348f.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/jean-philippe-sara/static/css/769.b3cbb36b.chunk.css.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.a1245d70.css",
-    "static/js/main.652e5d90.js"
+    "static/js/main.baa33aea.js"
   ]
 }
