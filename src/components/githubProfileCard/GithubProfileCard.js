@@ -9,7 +9,7 @@ export default function GithubProfileCard({prof}) {
   if (isHireable) {
     prof.hireable = "Oui";
   } else {
-    prof.hireable = "Non";
+    prof.hireable = "No";
   }
   return (
     <Fade bottom duration={1000} distance="20px">
@@ -50,7 +50,7 @@ export default function GithubProfileCard({prof}) {
           </div>
           <div className="image-content-profile">
             <img
-              src={'./IMG_7406.jpg'}
+              src={prof.avatarUrl}
               alt={prof.name}
               className="profile-image"
             />

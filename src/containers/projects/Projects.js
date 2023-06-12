@@ -16,7 +16,7 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("/profile.json")
+      fetch("/jean-philippe-sara/profile.json")
         .then(result => {
           if (result.ok) {
             return result.json();
@@ -24,7 +24,7 @@ export default function Projects() {
           throw result;
         })
         .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
+          setrepoFunction(response?.data?.user?.pinnedItems?.edges);
         })
         .catch(function (error) {
           console.error(
