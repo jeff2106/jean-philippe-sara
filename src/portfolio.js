@@ -80,8 +80,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "JavaScript",
@@ -96,8 +96,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
       skillName: "npm",
@@ -108,20 +108,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "JAVA Android/POS",
+      fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -133,23 +129,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Institut Internationale Polytechnique des Elites d'Abidjan (IIPEA)",
+      logo: "https://media.licdn.com/dms/image/C5603AQHh4u-hLjJFgA/profile-displayphoto-shrink_800_800/0/1594894708366?e=2147483647&v=beta&t=lhOB0gTh4uXm7Qvg8e7w9LMgjMtE12Ta5K-VPh0moAc",
+      subHeader: "Licence professionnelle Genie Logiciel",
+      duration: "Septembre 2021 - Avril 2022",
+      desc: "Equivalence de mon parcours initial RIT pour une licence Genie Logiciel",
+      descBullets: []
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Institut CERCO",
+      logo: require('./assets/images/logocerco.png'),
+      subHeader: "Licence professionnelle Réseau Informatique & Télécom",
+      duration: "Septembre 2018 - Avril 2021",
+      desc: "Formation initial, après le BAC",
+      descBullets: [
+        "Recruté dès la L3 pour travailler au compte de l'école pendant 2 ans en parallèle des cours"
+      ]
     }
   ]
 };
@@ -165,11 +160,11 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -181,29 +176,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Ingénieur développement logiciel",
+      company: "MediaSoft Lafayette".toUpperCase(),
+      companylogo: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Logo_Mediasoft_Lafayette.png",
+      date: "mai 2022 - aujourd’hui",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      descBullets: []
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "ServiceNow Developer",
+      company: "Akofen solution".toUpperCase(),
+      companylogo: "https://cdn1.iconfinder.com/data/icons/files-folder-001-solid/32/Document_file_help_page_paper_data-512.png",
+      date: "nov. 2021 - avr. 2022",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Ingénieur développement logiciel",
+      company: "INSTITUT CERCO INTERNATIONAL",
+      companylogo: require('./assets/images/logocerco.png'),
+      date: "oct. 2019 - nov. 2021",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     }
   ]
 };
@@ -219,9 +211,13 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
+  title: "Projet personnelle",
+  subtitle: "Quelque project personnel , et quelque projet de personne sur lequel j'ai travailler",
+  projects: [],
+  display: true // Set false to hide this section, defaults to true
+};
+/*
+
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
@@ -245,67 +241,63 @@ const bigProjects = {
         }
       ]
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
+  */
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Réalisations Et Certifications🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Réalisations, certifications de récompense et quelques trucs sympas que j'ai faits !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Multiplatform Mobile App Development with React Native",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "The Hong Kong University of Science and Technology",
+      image: "https://149362230.v2.pressablecdn.com/wp-content/uploads/2018/08/coursera-social-logo-brand.png",
+      imageAlt: "coursera",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.coursera.org/account/accomplishments/certificate/QPUH32J2J8JZ"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Cybersecurity Capstone: Breach Response Case Studies",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "IBM",
+      image: "https://149362230.v2.pressablecdn.com/wp-content/uploads/2018/08/coursera-social-logo-brand.png",
+      imageAlt: "IBM",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/certificate/ZXGWNS8BP6CM"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Full-Stack Web Development with React",
+      subtitle:
+        "specialization with 3 Courses".toUpperCase(),
+      image: "https://149362230.v2.pressablecdn.com/wp-content/uploads/2018/08/coursera-social-logo-brand.png",
+      imageAlt: "specialization (3 cours)",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+          name: "Certification 1",
+          url: "https://www.coursera.org/account/accomplishments/certificate/HBGU5ZE2RMZK"
+        },
+        {
+          name: "Certification 2",
+          url: "https://www.coursera.org/account/accomplishments/certificate/9CP6P6A6SR7W"
+        },
+        {
+          name: "Certification 3",
+          url: "https://www.coursera.org/account/accomplishments/certificate/93MA4LTLNKN9"
+        },
       ]
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -315,7 +307,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "Avec Love for Developing cool stuff, j'aime écrire et enseigner aux autres ce que j'ai appris.",
+    "Avec JustCodeIT, j'aime écrire et enseigner aux autres ce que j'ai appris.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
