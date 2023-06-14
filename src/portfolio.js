@@ -180,22 +180,25 @@ const workExperiences = {
       company: "MediaSoft Lafayette".toUpperCase(),
       companylogo: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Logo_Mediasoft_Lafayette.png",
       date: "mai 2022 - aujourd’hui",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: []
+      desc: "",
+      descBullets: [
+        "Charge de la réalisation et de la maintenance des Applications (Mobile Banking) destinées aux banques nationales et de la sous-région ouest-africaine",
+        "Chargé du développement des applications destinées aux terminaux de paiement ( VERIFONE, Pax, etc.) et à leur signature."
+      ]
     },
     {
       role: "ServiceNow Developer",
       company: "Akofen solution".toUpperCase(),
       companylogo: "https://cdn1.iconfinder.com/data/icons/files-folder-001-solid/32/Document_file_help_page_paper_data-512.png",
       date: "nov. 2021 - avr. 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      desc: "Responsable de l'administration système sur les plateformes ServiceNow au compte de l'entreprise et ses clients"
     },
     {
       role: "Ingénieur développement logiciel",
       company: "INSTITUT CERCO INTERNATIONAL",
       companylogo: require('./assets/images/logocerco.png'),
       date: "oct. 2019 - nov. 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      desc: "Responsable du développement des applications mobile au compte de l'entreprise"
     }
   ]
 };
