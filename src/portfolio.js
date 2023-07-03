@@ -37,7 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/jean-philippe-sara/",
   gmail: "jeanphilippesara225@gmail.com",
   gitlab: "https://gitlab.com/jeff2106",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "https://www.facebook.com/monica.manon.52?mibextid=LQQJ4d",
   medium: "https://medium.com/@jeanphilippesara225",
   stackoverflow: "https://stackoverflow.com/users/14965504/geek-studio",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -182,7 +182,7 @@ const workExperiences = {
       date: "mai 2022 - aujourd’hui",
       desc: "",
       descBullets: [
-        "Charge de la réalisation et de la maintenance des Applications (Mobile Banking) destinées aux banques nationales et de la sous-région ouest-africaine",
+        "Charger de la réalisation et de la maintenance des Applications (Mobile Banking) destinées aux banques nationales et de la sous-région ouest-africaine",
         "Chargé du développement des applications destinées aux terminaux de paiement ( VERIFONE, Pax, etc.) et à leur signature."
       ]
     },
