@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: window.innerWidth < 500 ? "JEPH" : 'Jean Philippe Sara',
+  username: window.innerWidth < 500 ? "JEPH" : "Jean Philippe Sara",
   title: "Hey, je suis Jean Philippe SARA",
   subTitle: emoji(
     "Un développeur de logiciels Full Stack passionné 🚀 ayant une expérience dans la création d'applications Web et mobiles avec JavaScript / Reactjs / Nodejs / React Native et quelques autres bibliothèques et frameworks sympas."
@@ -54,17 +54,18 @@ const skillsSection = {
     emoji(
       "⚡ Développez des interfaces front-end hautement interactives pour vos applications Web et mobiles"
     ),
-    emoji("⚡ Applications Web progressives ( PWA ) dans les piles normales et SPA"),
+    emoji(
+      "⚡ Applications Web progressives ( PWA ) dans les piles normales et SPA"
+    ),
     emoji("⚡ Développez des applications dédiées au TPE"),
-    emoji(
-      "⚡ Intégration de services tiers tels que Firebase"
-    ),
-    emoji(
-      "⚡ Conception et évolution de l’infrastructure d’un site web"
-    ),
+    emoji("⚡ Intégration de services tiers tels que Firebase"),
+    emoji("⚡ Conception et évolution de l’infrastructure d’un site web"),
     emoji(
       "⚡ Architecture et développement de la plateforme de gestion des contenus"
     ),
+    emoji(
+      "⚡ Création de script efficace pour automatiser des tâches, améliorer l'interactivité des sites web et résoudre des problèmes complexes dans des environnements de développement web et d'autres"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -129,7 +130,8 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Institut Internationale Polytechnique des Elites d'Abidjan (IIPEA)",
+      schoolName:
+        "Institut Internationale Polytechnique des Elites d'Abidjan (IIPEA)",
       logo: "https://media.licdn.com/dms/image/C5603AQHh4u-hLjJFgA/profile-displayphoto-shrink_800_800/0/1594894708366?e=2147483647&v=beta&t=lhOB0gTh4uXm7Qvg8e7w9LMgjMtE12Ta5K-VPh0moAc",
       subHeader: "Licence professionnelle Genie Logiciel",
       duration: "Septembre 2021 - Avril 2022",
@@ -138,7 +140,7 @@ const educationInfo = {
     },
     {
       schoolName: "Institut CERCO",
-      logo: require('./assets/images/logocerco.png'),
+      logo: require("./assets/images/logocerco.png"),
       subHeader: "Licence professionnelle Réseau Informatique & Télécom",
       duration: "Septembre 2018 - Avril 2021",
       desc: "Formation initial, après le BAC",
@@ -165,6 +167,10 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "80%"
+    },
+    {
+      Stack: "Scripting Language",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -178,7 +184,8 @@ const workExperiences = {
     {
       role: "Ingénieur développement logiciel",
       company: "MediaSoft Lafayette".toUpperCase(),
-      companylogo: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Logo_Mediasoft_Lafayette.png",
+      companylogo:
+        "https://upload.wikimedia.org/wikipedia/commons/4/4b/Logo_Mediasoft_Lafayette.png",
       date: "mai 2022 - aujourd’hui",
       desc: "",
       descBullets: [
@@ -189,14 +196,15 @@ const workExperiences = {
     {
       role: "ServiceNow Developer",
       company: "Akofen solution".toUpperCase(),
-      companylogo: "https://cdn1.iconfinder.com/data/icons/files-folder-001-solid/32/Document_file_help_page_paper_data-512.png",
+      companylogo:
+        "https://cdn1.iconfinder.com/data/icons/files-folder-001-solid/32/Document_file_help_page_paper_data-512.png",
       date: "nov. 2021 - avr. 2022",
       desc: "Responsable de l'administration système sur les plateformes ServiceNow au compte de l'entreprise et ses clients"
     },
     {
       role: "Ingénieur développement logiciel",
       company: "INSTITUT CERCO INTERNATIONAL",
-      companylogo: require('./assets/images/logocerco.png'),
+      companylogo: require("./assets/images/logocerco.png"),
       date: "oct. 2019 - nov. 2021",
       desc: "Responsable du développement des applications mobile au compte de l'entreprise"
     }
@@ -215,7 +223,8 @@ const openSource = {
 
 const bigProjects = {
   title: "Projet personnelle",
-  subtitle: "Quelque project personnel , et quelque projet de personne sur lequel j'ai travailler",
+  subtitle:
+    "Quelque project personnel , et quelque projet de personne sur lequel j'ai travailler",
   projects: [],
   display: true // Set false to hide this section, defaults to true
 };
@@ -256,9 +265,9 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Multiplatform Mobile App Development with React Native",
-      subtitle:
-        "The Hong Kong University of Science and Technology",
-      image: "https://149362230.v2.pressablecdn.com/wp-content/uploads/2018/08/coursera-social-logo-brand.png",
+      subtitle: "The Hong Kong University of Science and Technology",
+      image:
+        "https://149362230.v2.pressablecdn.com/wp-content/uploads/2018/08/coursera-social-logo-brand.png",
       imageAlt: "coursera",
       footerLink: [
         {
@@ -269,9 +278,9 @@ const achievementSection = {
     },
     {
       title: "Cybersecurity Capstone: Breach Response Case Studies",
-      subtitle:
-        "IBM",
-      image: "https://149362230.v2.pressablecdn.com/wp-content/uploads/2018/08/coursera-social-logo-brand.png",
+      subtitle: "IBM",
+      image:
+        "https://149362230.v2.pressablecdn.com/wp-content/uploads/2018/08/coursera-social-logo-brand.png",
       imageAlt: "IBM",
       footerLink: [
         {
@@ -282,9 +291,9 @@ const achievementSection = {
     },
     {
       title: "Full-Stack Web Development with React",
-      subtitle:
-        "specialization with 3 Courses".toUpperCase(),
-      image: "https://149362230.v2.pressablecdn.com/wp-content/uploads/2018/08/coursera-social-logo-brand.png",
+      subtitle: "specialization with 3 Courses".toUpperCase(),
+      image:
+        "https://149362230.v2.pressablecdn.com/wp-content/uploads/2018/08/coursera-social-logo-brand.png",
       imageAlt: "specialization (3 cours)",
       footerLink: [
         {
@@ -298,9 +307,9 @@ const achievementSection = {
         {
           name: "Certification 3",
           url: "https://www.coursera.org/account/accomplishments/certificate/93MA4LTLNKN9"
-        },
+        }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
